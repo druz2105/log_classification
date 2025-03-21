@@ -1,0 +1,7 @@
+Faker==37.0.2
+fastapi==0.115.11
+groq==0.20.0
+joblib==1.4.2
+pandas==2.2.3
+python-dotenv==1.0.1
+sentence_transformers==3.4.1
