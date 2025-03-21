@@ -59,8 +59,8 @@ thresholds or configurations.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository.git
-   cd hybrid-log-classification
+   git clone https://github.com/log_classification.git
+   cd log_classification
    ```
 
 2. Install dependencies:
@@ -69,12 +69,5 @@ thresholds or configurations.
    ```
 
 ```bash
-python scripts/ml_classifier.py --train --data data/path/to/training_data.csv
+python -m uvicorn server:log_classification_app --reload --host 0.0.0.0 --port 3000 
 ```
-
-## Contact
-
-For questions, feel free to reach out to:  
-**Name:** [Your Name]  
-**Email:** [your.email@example.com]  
-**GitHub:** [https://github.com/your-profile](https://github.com/your-profile)
