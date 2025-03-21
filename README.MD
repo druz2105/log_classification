@@ -59,7 +59,7 @@ thresholds or configurations.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/log_classification.git
+   git clone https://github.com/druz2105/log_classification.git
    cd log_classification
    ```
 
