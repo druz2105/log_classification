@@ -51,6 +51,7 @@ thresholds or configurations.
             ├── fin_csv_generator.py      # Script for generating datasets
         ├── training.ipynb        # Jupyter notebook for training models
     ├── utils/                    # Utility scripts
+        ├── create_jira_issue.py  # Create JIRA issue of the error.
         ├── groq_client.py        # Client for external operations
         ├── __init__.py           # Makes the utils directory a package
     ├── README.MD                 # Project description and usage details
